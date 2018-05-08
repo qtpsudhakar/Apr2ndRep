@@ -13,6 +13,7 @@ public class Test1 {
 	@BeforeSuite
 	public void bs1() {
 		System.out.println("this is before suite");
+		System.out.println("this is change2");
 	}
   @Test(priority=1)
   public void t1() {
