@@ -19,6 +19,7 @@ public class Test1 {
   @Test(priority=1)
   public void t1() {
 	  System.out.println("this is t1 method");
+	  System.out.println("this is a change in remote");
   }
   @Test(groups="smoke")
   public void t2() {
