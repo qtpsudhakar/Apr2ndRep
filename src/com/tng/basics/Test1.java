@@ -8,6 +8,7 @@ public class Test1 {
 	@BeforeTest
 	public void bt1() {
 		System.out.println("this is before test");
+		System.out.println("this is change1");
 	}
 	@BeforeSuite
 	public void bs1() {
