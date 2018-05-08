@@ -14,6 +14,7 @@ public class Test1 {
 	public void bs1() {
 		System.out.println("this is before suite");
 		System.out.println("this is change2");
+		System.out.println("this is change3");
 	}
   @Test(priority=1)
   public void t1() {
